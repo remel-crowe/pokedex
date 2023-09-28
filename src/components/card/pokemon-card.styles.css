@@ -1,0 +1,12 @@
+.pokemon-card {
+    background-image: linear-gradient(to bottom right, rgb(7, 114, 255), rgb(0, 255, 55));
+    width: 300px;
+    border-radius: 15%;
+    transition: transform ease 300ms;
+}
+
+.pokemon-card:hover {
+    box-shadow: 0 0 3px black;
+    transform: translate(0,-10px);
+    cursor: pointer;
+}
